@@ -13,8 +13,6 @@ install -m 755 files/rc.local		"${ROOTFS_DIR}/etc/"
 
 on_chroot << EOF
 systemctl disable hwclock.sh
-systemctl disable nfs-common
-systemctl disable rpcbind
 if [ "${ENABLE_SSH}" == "1" ]; then
 	systemctl enable ssh
 else

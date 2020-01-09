@@ -11,7 +11,6 @@ libraspberrypi-dev libraspberrypi-doc libfreetype6-dev
 dosfstools
 dphys-swapfile
 raspberrypi-sys-mods
-pi-bluetooth
 apt-listchanges
 usb-modeswitch
 libpam-chksshpwd
@@ -28,3 +27,12 @@ vl805fw
 ntfs-3g
 pciutils
 rpi-eeprom
+python python-all python-all-dev python-apt python-apt-common python-asn1crypto python-cffi-backend python-configparser python-crypto python-cryptography python-dbus python-dev python-entrypoints python-enum34 python-gi python-ipaddress python-keyring python-keyrings.alt python-minimal python-pip python-pip-whl python-pkg-resources python-rpi.gpio python-secretstorage python-setuptools python-six python-wheel python-xdg
+python2 python2-dev python2-minimal python2.7 python2.7-dev python2.7-minimal
+python3 python3-acme python3-apt python3-asn1crypto python3-certbot python3-certbot-dns-cloudflare python3-certifi python3-cffi-backend python3-chardet python3-cloudflare python3-configargparse python3-configobj python3-cryptography python3-dateutil python3-dbus python3-debconf python3-debian python3-distro python3-distro-info python3-distutils python3-future python3-gi python3-gpg python3-icu python3-idna python3-josepy python3-lib2to3 python3-magic python3-minimal python3-mock python3-openssl python3-parsedatetime python3-pbr python3-pkg-resources python3-requests python3-requests-toolbelt python3-rfc3339 python3-setuptools python3-six python3-sss python3-tz python3-unidiff python3-urllib3 python3-xdg python3-yaml python3-zope.component python3-zope.event python3-zope.hookable python3-zope.interface
+python3.7 python3.7-minimal
+speedtest-cli
+iperf3 lsof dnsutils
+etckeeper
+ffmpeg
+tree git

@@ -1,0 +1,25 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The Wired Network Interface
+#auto eth0
+#iface eth0 inet static
+#    address 10.0.100.
+#    netmask 255.255.255.0
+#    gateway 10.0.100.1
+#    broadcast 10.0.100.255
+#    network 10.0.100.0
+#    search home.jpcdi.com
+#    dns-nameservers 10.0.100.35 1.1.1.1 8.8.8.8
+
+# This is an autoconfigured IPv6 interface
+iface eth0 inet6 auto
+
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+        wpa-ssid "${WPA_ESSID}"
+        wpa-psk "${WPA_PASSWORD}"

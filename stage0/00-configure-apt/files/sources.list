@@ -1,3 +1,20 @@
-deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
-# Uncomment line below then 'apt-get update' to enable 'apt-get source'
-#deb-src http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
+## archive.raspbian.org ##
+deb http://archive.raspbian.org/raspbian buster main contrib non-free firmware rpi
+deb-src http://archive.raspbian.org/raspbian buster main contrib non-free firmware rpi
+deb http://archive.raspbian.org/raspbian buster-staging main contrib non-free firmware rpi
+deb-src http://archive.raspbian.org/raspbian buster-staging main contrib non-free firmware rpi
+
+## archive.raspberrypi.org ##
+deb http://archive.raspberrypi.org/debian buster main
+deb-src http://archive.raspberrypi.org/debian buster main
+
+## ftp.debian.org for backports ##
+deb http://ftp.debian.org/debian buster-backports main contrib non-free
+deb-src http://ftp.debian.org/debian buster-backports main contrib non-free
+
+deb http://ftp.debian.org/debian/ buster main contrib non-free
+deb http://security.debian.org/ buster/updates main contrib non-free
+deb http://ftp.debian.org/debian/ buster-updates main contrib non-free
+deb-src http://ftp.debian.org/debian/ buster main contrib non-free
+deb-src http://security.debian.org/ buster/updates main contrib non-free
+deb-src http://ftp.debian.org/debian/ buster-updates main contrib non-free
